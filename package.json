@@ -23,11 +23,11 @@
     "through2": "^2.0.0"
   },
   "peerDependencies": {
-    "jshint": "2.x"
+    "jshint-esnext": "2.x"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
-    "jshint": "^2.9.4",
+    "jshint-esnext": "^2.7.0-3",
     "mocha": "^3.0.0",
     "should": "^11.0.0",
     "vinyl": "^2.1.0"
