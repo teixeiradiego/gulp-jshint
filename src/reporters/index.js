@@ -14,7 +14,7 @@ exports.loadReporter = function (reporter) {
   // load jshint built-in reporters
   if (typeof reporter === 'string') {
     try {
-      return exports.loadReporter(require('jshint/src/reporters/' + reporter));
+      return exports.loadReporter(require('jshint-esnext/src/reporters/' + reporter));
     } catch (err) {}
   }
 
